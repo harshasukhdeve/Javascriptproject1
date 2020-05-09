@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,900;1,900&display=swap');
+
+h1
+{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 300;
+    color: black;
+    margin-left: 50px;   
+    margin-top: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#time-display ul li
+{
+list-style: none;
+}
+
+#time-display ul 
+{  
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px 215px;
+}
+
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: black;
+}
+
+input{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid black ;
+}
+
+#countdown{
+text-align: right;
+top: 10px;
+  right: 30px;
+  font-size: 1.5em;
+  position:absolute;
+  width: 400px;
+}
+#playbox
+{
+    height:480px;
+    width: 1200px;
+    background: center;
+    background-color:lightskyblue;
+    margin: 15px 80px 20px 160px;
+}
+
+
+#box{
+     height: 200px;
+    width: 200px;
+    /*background-color: red;*/
+    position: relative;
+    display: none; 
+
+    
+    /* height:500px;
+    width: 1200px;
+    background: center;
+    background-color:lightskyblue;
+    margin: 15px 250px 20px 150px; */
+}
