@@ -59,7 +59,7 @@ for(var i=0;i<=timeleft;i++)
     refluxTime=clickedTime-createdTime;
     refluxTime=refluxTime/1000;
     score = (refluxTime< score || !score ? refluxTime : score);
-    document.getElementById("highscore").innerHTML = "High Score :"+" "+score+" "+"s";
+    document.getElementById("highscore").innerHTML = "High Score :"+" "+score;
     document.getElementById("time").innerHTML="Your Time :"+" "+refluxTime+" "+"s";
     createBox(); //so as to create box again
     }
