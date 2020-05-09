@@ -34,7 +34,8 @@ list-style: none;
 
 input{
     height: 50px;
-    width: 100px;
+    width: 120px;
+    border-radius: 20px;
     text-align: center;
     font-size: 0.9em;
     font-weight: 500;
@@ -53,7 +54,7 @@ top: 10px;
 #playbox
 {
     height:480px;
-    width: 1200px;
+    width: 1000px;
     background: center;
     background-color:lightskyblue;
     margin: 15px 80px 20px 160px;
